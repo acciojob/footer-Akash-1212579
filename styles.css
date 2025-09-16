@@ -1,1 +1,82 @@
 /* your code here */
+body{
+	color:white;
+}
+footer p{
+	line-height: 1;   /* or 2, adjust until it looks like your design */
+  display: block;     /* makes each link/paragraph take its own line */
+  margin-top: 2px;          /* reset default paragraph spacing */
+}
+footer a {
+  line-height: 1.5;   /* or 2, adjust until it looks like your design */
+  display: block;     /* makes each link/paragraph take its own line */
+  margin-top: 2px;          /* reset default paragraph spacing */
+}
+
+
+
+.link-boxes{
+	display:flex;
+	gap:20px;
+	justify-content:space-evenly;
+	margin-top:40px;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	;
+}
+.icons{
+	display:flex;
+	flex-direction:row;
+	align-items:top;
+	margin-top:0px;
+	
+}
+.logo-details{
+	
+}
+.logo_name{
+	font-size:35px;
+	margin-left:30px;
+}
+.top{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:top;
+}
+.content{
+	background-color:black;  /* make it black*/
+	color:white;
+	width:100%;
+	min-height:250px;
+    height: auto;
+}
+
+.links-header{
+      border-bottom: 2px solid white;
+      width: 30px;                  /* underline only half */
+      text-align: center; 
+	 white-space: nowrap; 
+}
+.bottom-details{
+	width:100%;
+	background-color:gray;
+	height:40px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+
+}
+.para{
+	margin-left:15px;
+}
+.privacy{
+	margin-right:25px;
+}
