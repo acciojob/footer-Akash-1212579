@@ -31,16 +31,14 @@ ul{
 	padding:0px;
 	;
 }
-.icons{
+.media-icons{
 	display:flex;
 	flex-direction:row;
 	align-items:top;
 	margin-top:0px;
 	
 }
-.logo-details{
-	
-}
+
 .logo_name{
 	font-size:35px;
 	margin-left:30px;
